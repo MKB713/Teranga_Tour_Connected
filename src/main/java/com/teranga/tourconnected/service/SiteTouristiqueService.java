@@ -1,3 +1,7 @@
+package com.teranga.tourconnected.service;
+
+import com.teranga.tourconnected.model.SiteTouristique;
+import com.teranga.tourconnected.repository.SiteTouristiqueRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -8,6 +12,7 @@ import java.util.List;
  */
 @Service
 @RequiredArgsConstructor // Injecte automatiquement les dépendances finales (Repository)
+
 public class SiteTouristiqueService {
 
     private final SiteTouristiqueRepository repository;

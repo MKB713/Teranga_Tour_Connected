@@ -1,3 +1,5 @@
+package com.teranga.tourconnected.model;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -24,4 +26,6 @@ public class SiteTouristique {
     private String description;
     private String localisation;
     private String imageUrl;
+    private double latitude;
+    private double longitude;
 }
