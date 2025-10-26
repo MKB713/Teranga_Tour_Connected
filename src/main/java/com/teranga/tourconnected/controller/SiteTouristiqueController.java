@@ -1,3 +1,7 @@
+package com.teranga.tourconnected.controller;
+
+import com.teranga.tourconnected.model.SiteTouristique;
+import com.teranga.tourconnected.service.SiteTouristiqueService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;

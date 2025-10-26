@@ -1,3 +1,5 @@
+package com.teranga.tourconnected.service;
+
 import com.teranga.tourconnected.model.Histoire;
 import com.teranga.tourconnected.repository.HistoireRepository;
 import lombok.RequiredArgsConstructor;

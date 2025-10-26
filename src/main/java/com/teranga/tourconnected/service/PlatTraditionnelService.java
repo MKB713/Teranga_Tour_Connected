@@ -1,3 +1,5 @@
+package com.teranga.tourconnected.service;
+
 import com.teranga.tourconnected.model.PlatTraditionnel;
 import com.teranga.tourconnected.repository.PlatTraditionnelRepository;
 import lombok.RequiredArgsConstructor;
@@ -10,6 +12,7 @@ import java.util.List;
  */
 @Service
 @RequiredArgsConstructor // Injecte automatiquement PlatTraditionnelRepository
+
 public class PlatTraditionnelService {
 
     private final PlatTraditionnelRepository repository;

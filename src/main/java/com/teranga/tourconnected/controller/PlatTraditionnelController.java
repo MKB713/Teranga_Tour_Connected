@@ -1,3 +1,5 @@
+package com.teranga.tourconnected.controller;
+
 import com.teranga.tourconnected.model.PlatTraditionnel;
 import com.teranga.tourconnected.service.PlatTraditionnelService;
 import lombok.RequiredArgsConstructor;
